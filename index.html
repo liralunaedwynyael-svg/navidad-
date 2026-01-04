@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Cómpramelo para que juguemos</title>
+    <title>Para los Reyes Magos</title>
     <style>
         body {
             margin: 0;
@@ -10,30 +10,84 @@
             background: linear-gradient(#0b3d2e, #145a32);
             color: white;
             text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
         }
+
         h1 {
-            margin-top: 40px;
             font-size: 3em;
+            margin-bottom: 30px;
         }
-        .btn {
-            display: inline-block;
-            margin-top: 40px;
-            padding: 20px 30px;
+
+        .navidad {
+            position: absolute;
+            top: 10px;
+            width: 100%;
+            font-size: 2em;
+        }
+
+        .contenedor {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 30px;
+            border-radius: 20px;
+            border: 3px solid red;
+        }
+
+        .advertencia {
+            color: yellow;
             font-size: 1.3em;
-            background-color: #c0392b;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .flecha {
+            font-size: 3em;
+            margin: 10px 0;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 15px 25px;
+            background: red;
             color: white;
             text-decoration: none;
-            border-radius: 15px;
+            font-size: 1.2em;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background: darkred;
+        }
+
+        .decoracion {
+            position: absolute;
+            bottom: 10px;
+            font-size: 2em;
+            width: 100%;
         }
     </style>
 </head>
 <body>
 
-    <h1>🎄 Cómpramelo para que juguemos 🎮</h1>
+    <div class="navidad">🎄🎅✨ 🎁 ❄️ ⭐</div>
 
-    <a class="btn" href="https://www.mercadolibre.com.mx/p/MLM19610178?pdp_filters=item_id:MLM2610463427#origin=share&sid=share&wid=MLM2610463427&action=whatsapp" target="_blank">
-        🎁 Ver en Mercado Libre
-    </a>
+    <h1>Para los Reyes Magos 👑👑👑</h1>
+
+    <div class="contenedor">
+        <div class="advertencia">⚠️ ADVERTENCIA: REGALO DESEADO ⚠️</div>
+        <div class="flecha">⬇️⬇️⬇️</div>
+        <a href="https://www.mercadolibre.com.mx/p/MLM19610178?pdp_filters=item_id:MLM2610463427#origin=share&sid=share&wid=MLM2610463427&action=whatsapp" target="_blank">
+            🎁 Ver regalo aquí 🎁
+        </a>
+    </div>
+
+    <div class="decoracion">🎄 ❄️ 🎁 ⭐ 🎅 🎄</div>
 
 </body>
 </html>
